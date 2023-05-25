@@ -16,7 +16,7 @@ const App = () => {
         </Link>
 
         <div class="w-full sm:px-8 px-4 py-4 font-semibold text-xl text-green-600 text-2xl">
-          <p>Oaisis.io</p>
+          <p>Oaisis</p>
         </div>
 
         <Link
