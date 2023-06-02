@@ -12,7 +12,7 @@ const Home = () => {
       setLoading(true);
 
       try {
-        const response = await fetch("http://localhost:8080/api/v1/posts", {
+        const response = await fetch("http://localhost:8080/api/v1/post", {
           method: "GET",
           headers: {
             "Content-Type": "application/json",
@@ -20,9 +20,9 @@ const Home = () => {
         });
 
         if (response.ok) {
-          const result = response.json();
+          const result = await response.json();
 
-          setAllPosts(result.data.reverse);
+          setAllPosts(result.data.reverse());
         }
       } catch (error) {
         alert(error);
@@ -79,7 +79,7 @@ const Home = () => {
               {searchText ? (
                 <RenderCards data={[]} title="No search results found" />
               ) : (
-                <RenderCards data={[]} title="No posts found" />
+                <RenderCards data={allPosts} title="No posts found" />
               )}
             </div>
           </>
