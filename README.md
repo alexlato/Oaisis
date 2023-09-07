@@ -24,19 +24,13 @@
 <div align="center">
   <img src="client\src\assets\logo.png" alt="Logo" width="80" height="80">
 
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">Oaisis</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    Welcome to Oaisis! An AI image generation application utilizing OpenAI's technology!
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
     <br />
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
   </p>
 </div>
 
