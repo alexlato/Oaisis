@@ -80,8 +80,11 @@ Use the `BLANK_README.md` to get started.
 
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+The home page displays the Community Showcase, an area of the application which shows community creations.
+
+In the top right of the application, the "Create" button takes you to the creation page. Simply put, a name and a prompt is all you need to start creating.
+
+Then, post and be redirected back to the Community Showcase.
 
 <!-- CONTACT -->
 
